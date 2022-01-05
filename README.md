@@ -29,9 +29,9 @@ The default tree, as you saw above, looks like this:
 
 ```json
 {
-	"id": "root",
-	"data": {},
-	"children": []
+    "id": "root",
+    "data": {},
+    "children": []
 }
 ```
 
@@ -61,7 +61,7 @@ Returns a Generator that loops over each child node recursviely from starting po
 
 ```js
 for (let node of tree.traverse()) {
-	console.log(node);
+    console.log(node);
 }
 ```
 
@@ -86,16 +86,16 @@ This results in:
 
 ```json
 {
-	"id": "root",
-	"data": {},
-	"children":[
-		{
-			"id": "new_node",
-			"data": {},
-			"parent": "root",
-			"children": []
-		}
-	]
+    "id": "root",
+    "data": {},
+    "children":[
+        {
+            "id": "new_node",
+            "data": {},
+            "parent": "root",
+            "children": []
+        }
+    ]
 }
 ```
 
